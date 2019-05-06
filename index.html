@@ -1,0 +1,232 @@
+
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mohammed Islam</title>
+    <link rel="stylesheet" href="normalize.css">
+    <!-- Fonts taken from Adobe Typekit -->
+    <link rel="stylesheet" href="https://use.typekit.net/gqj8avj.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- Sliding animations deployed using the AOS.js animation library: https://michalsnik.github.io/aos/ -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id='site-container'>
+        <header>
+            <nav>
+                <img src="assets\images\personal.JPG" id='portrait-img' alt="A portrait photo of me">
+                <h1 data-aos="fade-right" data-aos-delay="200">Mohammed Islam</h1>
+                <ul class='row'>
+                    <li data-aos="fade-right" data-aos-delay="300"><a href='#opening-section' id='about-btn'>About</a></li>
+                    <li data-aos="fade-right" data-aos-delay="400"><a href='#portfolio-grid' id='portfolio-btn'>Portfolio</a></li>
+                    <li data-aos="fade-right" data-aos-delay="500"><a href='#cv-grid' id='cv-btn'>CV</a></li>
+                    <li data-aos="fade-right" data-aos-delay="600"><a href='#contact-grid' id='contact-btn'>Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id='opening-section'>
+                <h1>Mohammed Islam</h1> 
+                <p>My facination about how computer works was rooted into my mind since my childhood. Always my curiousity about this magic box was really really high. I always had dream to be a coder or computer programmer. But for some reason that dream never was materialized for such a long time. Finally after a couple of years&mdash;dabbling in web tutorials here and spending time on <a href="https://www.freecodecamp.org" target="_blank" class='bio-link'>FreeCodeCamp.org</a> and <a href="https://www.portnov.com" target="blank" class='bio-link'>Portnov Computer School</a> there&mdash;I decided to commit to Northwestern University's coding boot camp.</p>
+                <p>I'm leveraging my know-how of syntax and language and to master the rules of HTML, CSS, JavaScript, and its many libraries. I want to combine my new skills with my enormous interest to coding and move into full-stack web production.</p>
+                <p>My goal is to meet and work with a team of like-minded people where I can ideate freely and use my expertise to achieve excellence or build something truly remarkable and beautiful.</p>
+            </section>
+
+            <section id='portfolio-grid'>
+                <h1>Portfolio</h1>
+                <div class="portfolio-item" data-aos="fade-right" data-aos-delay="300">
+                    <a href='https://geoffdgeorge.github.io/first-group-project/' class='portfolio-link' target="_blank">
+                        <div class='secondary-head'><span>Fresh Farm Recipes</span></div>
+                        <div class='img-div'>
+                            <img src="assets/images/Screenshots/Farmersmarketscreenshot.png" class='screen-img' alt="Screenshot of Farmer's Market">
+                        </div>
+                    </a>
+                    <div class="tools-and-mobile">
+                        <div class="tools-and-icons">
+                            <h3><strong>Tools used: </strong>jQuery, Bootstrap, Edamam API, USDA farmer's market API, Leaflet.js</h3>
+                            <div class='link-icons'>
+                                <a href="https://geoffdgeorge.github.io/first-group-project/" class='icon' title="Live Site" target="_blank"><i class="fas fa-link"></i></a>
+                                <a href="https://github.com/geoffdgeorge/first-group-project" class="icon" title="GitHub Page" target="_blank"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <a href="https://geoffdgeorge.github.io/first-group-project/" target="_blank"><img src="assets/images/portfolio/Fresh Farm Recipes_phone.png" class='phone-img' alt="Screenshot of Farmer's Market for mobile"></a>
+                    </div>
+                    <p>I worked with a small team to build an app that provides recipe suggestions based on raw ingredients and helps users find nearby farmer's markets to procure those ingredients. My primary work was on the look and functionality of the site's Leaflet.js map and the results brought back from the USDA's farmer's market API.</p>
+                </div>
+                <div class="portfolio-item" data-aos="fade-left" data-aos-delay="300">
+                    <a href='https://nugitguru2019.github.io/Train-Scheduler/' class='portfolio-link' target="_blank">
+                        <div class='secondary-head'><span>Train-Scheduler</span></div>
+                        <div class='img-div'>
+                            <img src="assets/images/Screenshots/trainscreenshot.png" class='screen-img' alt="Screen shot of Train-Scheduler">
+                        </div>
+                    </a>
+                    <div class="tools-and-mobile">
+                        <div class="tools-and-icons">
+                            <h3><strong>Tools used: </strong>jQuery, Firebase</h3>
+                            <div class='link-icons'>
+                                <a href="https://nugitguru2019.github.io/Train-Scheduler/" class='icon' title="Live Site" target="_blank"><i class="fas fa-link"></i></a>
+                                <a href="https://github.com/nugitguru2019/Train-Scheduler.git" class="icon" title="GitHub Page" target="_blank"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <a href="https://nugitguru2019.github.io/Train-Scheduler/" target="_blank"><img src="assets/images/Screenshots/mobilescreenshots/Train-scheduler_phone.png" class='phone-img' alt="Screenshot of Train-Scheduler for mobile"></a>
+                    </div>
+                    <p>Using Firebase for back-end server processes, I built this Train-Scheduler. </p>
+                </div>
+                <div class="portfolio-item" data-aos="fade-right" data-aos-delay="300">
+                    <a href='https://nugitguru2019.github.io/GifTastic/' class='portfolio-link' target="_blank">
+                        <div class='secondary-head'><span>GifTastic GIF Finder</span></div>
+                        <div class="img-div">
+                            <img src="assets/images/Screenshots/GifTastic.png" class='screen-img' alt="Sreenshot of Giftastic GIF Finder">
+                        </div>
+                    </a>
+                    <div class="tools-and-mobile">
+                        <div class="tools-and-icons">
+                            <h3><strong>Tools used: </strong>jQuery, localStorage, Giphy API</h3>
+                            <div class='link-icons'>
+                                <a href="https://nugitguru2019.github.io/GifTastic/" class='icon' title="Live Site" target="_blank"><i class="fas fa-link"></i></a>
+                                <a href="https://github.com/nugitguru2019/GifTastic" class="icon" title="GitHub Page" target="_blank"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <a href='https://nugitguru2019.github.io/GifTastic/' target="_blank"><img src="assets/images/Screenshots/mobilescreenshots/GifTastic_phone.png" class='phone-img' alt="Sreenshot of Giftastic GIF Finder for mobile"></a>
+                    </div>
+                    <p>This is a GIF search engine for movies, with pause-and-play functionality for each GIF and the option for each user to save favorited GIFs from session to session. I put it together using the Giphy API and localStorage.</p>
+                </div>
+                <div class="portfolio-item" data-aos="fade-left" data-aos-delay="300">
+                    <a href='https://nugitguru2019.github.io/unit-4-game/' class='portfolio-link' target="_blank">
+                        <div class='secondary-head'><span>Crystal Collector</span></div>
+                        <div class='img-div'>
+                            <img src="assets/images/Screenshots/crystalcollectorscreenshot.png" class='screen-img' alt="Screenshot of Crystal Collector game">
+                        </div>
+                    </a>
+                    <div class="tools-and-mobile">
+                        <div class="tools-and-icons">
+                            <h3><strong>Tools used: </strong>jQuery</h3>
+                            <div class='link-icons'>
+                                <a href="https://nugitguru2019.github.io/unit-4-game/" class='icon' title="Live Site" target="_blank"><i class="fas fa-link"></i></a>
+                                <a href="https://github.com/nugitguru2019/unit-4-game" class="icon" title="GitHub Page" target="_blank"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <a href='https://nugitguru2019.github.io/unit-4-game/' target="_blank"><img src="assets/images/Screenshots/mobilescreenshots/Crystal Collector_phone.png" class='phone-img' alt="Screenshot of Crystal Collector for mobile"></a>
+                    </div>
+                    <p>This is a simple Crystal Collector game, built with jQuery.</p>
+                </div>
+                <div class="portfolio-item" data-aos="fade-right" data-aos-delay="300">
+                    <a href='https://nugitguru2019.github.io/TriviaGame/' class='portfolio-link' target="_blank">
+                        <div class='secondary-head'><span>Timed Trivia Game</span></div>
+                        <div class='img-div'>
+                            <img src="assets/images/Screenshots/Triviascreenshot .png" class='screen-img' alt="Screenshot of General Knowledge Trivia Game">
+                        </div>
+                    </a>
+                    <div class="tools-and-mobile">
+                        <div class="tools-and-icons">
+                            <h3><strong>Tools used: </strong>jQuery, setInterval, setTimeout</h3>
+                            <div class='link-icons'>
+                                <a href="https://nugitguru2019.github.io/TriviaGame/" class='icon' title="Live Site" target="_blank"><i class="fas fa-link"></i></a>
+                                <a href="https://github.com/nugitguru2019/TriviaGame" class="icon" title="GitHub Page" target="_blank"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <a href='https://nugitguru2019S.github.io/TriviaGame/' target="_blank"><img src="assets/images/Screenshots/mobilescreenshots/Trivia_phone.png" class='phone-img' alt="Screenshot of General Knowledge Trivia Game for mobile"></a>
+                    </div>
+                    <p>This is a fun little general knowledge trivia game I built to practice working with setInterval and setTimeout more. Users get 20 seconds to answer all of the questions, and their score is tallied and presented to them.</p>
+                </div>
+            </section>
+
+            <section id='cv-grid'>
+                <h1>Skills & Experience</h1>
+                <p>In addition to the projects I've worked on at Northwestern, I've taken every opportunity to learn more on my own, from <a href="https://www.portnov.com" target="_blank">portnov.com</a> courses online to the entire web development path on <a href="https://www.codecademy.com/" target="_blank">CodeCademy.com</a> to deep dives into <a href="https://eloquentjavascript.net/" target="_blank"><em>Eloquent JavaScript</em></a> and the documentation for various libraries. If there's one thing I love most about coding, it's constantly jamming my head with new stuff.</p>
+                <div id='tech-icons'>
+                    <div class='secondary-head'><span> Tools Used </span></div>
+                    <div class="icon-and-label" data-aos="flip-down">
+                        <img src="assets/images/tech_icons/HTML5_logo.png" alt="HTML5 logo" class="tech-icon">
+                        <span>HTML5</span>
+                    </div>
+                    <div class="icon-and-label" data-aos="flip-down">
+                        <img src="assets/images/tech_icons/CSS3_logo.png" alt="CSS3 logo" class="tech-icon">
+                        <span>CSS3</span>
+                    </div>
+                    <div class="icon-and-label" data-aos="flip-down">
+                        <img src="assets/images/tech_icons/es6_logo.png" alt="ES6 logo" class="tech-icon">
+                        <span>ES6</span>
+                    </div>
+                    <div class="icon-and-label" data-aos="flip-down">
+                        <img src="assets/images/tech_icons/jQuery_logo.png" alt="jQuery logo" class="tech-icon">
+                        <span>jQuery</span>
+                    </div>
+                    <div class="icon-and-label" data-aos="flip-down">
+                        <img src="assets/images/tech_icons/Firebase_logo.png" alt="Firebase logo" class="tech-icon">
+                        <span>Firebase</span>
+                    </div>
+                    <div class="icon-and-label" data-aos="flip-down">
+                        <img src="assets/images/tech_icons/leaflet.png" alt="Leaflet.js logo" class="tech-icon">
+                        <span>Leaflet</span>
+                    </div>
+                    <div class="icon-and-label" data-aos="flip-down">
+                        <img src="assets/images/tech_icons/nodeJS_logo.png" alt="Node.js logo" class="tech-icon">
+                        <span>Node</span>
+                    </div>
+                    <div class="icon-and-label" data-aos="flip-down">
+                        <img src="assets/images/tech_icons/expressJS.png" alt="Express.js logo" class="tech-icon">
+                        <span>Express</span>
+                    </div>
+                    <div class="icon-and-label" data-aos="flip-down">
+                        <img src="assets/images/tech_icons/npm_logo.png" alt="Node Package Manager logo" class="tech-icon">
+                        <span>npm</span>
+                    </div>
+                    <div class="icon-and-label" data-aos="flip-down">
+                        <img src="assets/images/tech_icons/ReactJS_logo.png" alt="React logo" class="tech-icon">
+                        <span>React</span>
+                    </div>
+                    <div class="icon-and-label" data-aos="flip-down">
+                        <img src="assets/images/tech_icons/Mocha_logo.png" alt="Mocha.js logo" class="tech-icon">
+                        <span>Mocha</span>
+                    </div>
+                    <div class="icon-and-label" data-aos="flip-down">
+                        <img src="assets/images/tech_icons/chaiJS_logo.png" alt="Chai.js logo" class="tech-icon">
+                        <span>Chai</span>
+                    </div>
+                </div>
+                <div id="resume-grid">
+                    <div class='secondary-head'><span> Resume </span></div>
+                    <p>Need a look at my full resume? No problem. Click to download.</p>
+                    <a id="resume-link" href="assets/images/personal/Mohammed Islam_Developer Resume.pdf" download><img src="assets/images/personal/Mohammed Islam_Developer Resume.jpg" alt="Resume thumbnail" id='resume'></a>
+                </div>
+            </section>
+
+            <section id='contact-grid'>
+                <h1>Contact</h1>
+                <p>I'd love to work with you! Please write me a line here, or connect with me on social media.Let's talk about code.</p>
+                <div id='contact-form'>
+                    <input data-aos="fade-right" type="text" id='name' for='submit-btn' placeholder='Name' required>
+                    <input data-aos="fade-left" type="email" id='email' for='submit-btn' placeholder='Email' required>
+                    <textarea data-aos="fade-up" id="message" for='submit-btn' placeholder="Message"></textarea>
+                    <button type="submit" id='submit-btn'>Submit</button>
+                </div>
+                <div id="contact-icons">
+                    <div class='secondary-head'><span> Social </span></div>
+                    <a href="https://github.com/nugitguru2019" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://stackoverflow.com/users/10877350/mohammed" target="_blank"><i class="fab fa-stack-overflow"></i></a>
+                    <a href="https://www.linkedin.com/in/mohammed-islam-635183106/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://twitter.com/mohchi2018" target="_blank"><i class="fab fa-twitter"></i> </a>
+                    <a href="https://www.instagram.com/mohammed-islam/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/mohammedislam" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+            <p>Copyright &copy; 2019 Mohammed Islam</p>
+        </footer> 
+    </div>
+
+    <!-- A CDN fiile for AOS.js, the library I'm using for the site's current animations -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
