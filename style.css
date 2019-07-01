@@ -1,5 +1,16 @@
 /* General Styling */
-
+body{
+    background-image: url(https://cdn.dribbble.com/users/931696/screenshots/4897278/untitled-2.gif);
+    height: auto;
+    width: 100%;
+    background-position: center center;
+    overflow: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
 
 
 * {
@@ -97,9 +108,11 @@ html {
     header {
 
         background-image: url(assets/images/personal/meagan-h-1414289-unsplash.jpg);
-
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
         background-position: center center;
-
         background-size: cover;
 
     }
@@ -200,7 +213,7 @@ html {
 
         text-decoration: none;
 
-        text-shadow: 0 0 .3rem rgb(150, 88, 45);
+        text-shadow: 0 0 .3rem #f3f1ef;
 
         /* Reverse-engineered a simpler animation I understand the properties of from the grow animation I found on this site: http://ianlunn.github.io/Hover/#effects */
 
@@ -234,7 +247,7 @@ html {
 
     section h1 {
 
-        color: rgb(0, 141, 150);
+        color: #f5f5f5;
 
         font-family: 'Dancing Script',cursive;
 
@@ -251,7 +264,7 @@ html {
     section p {
 
         margin-bottom: 1rem;
-
+        color: #fbfdfd;
         font-family: 'oswald', sans-serif;
 
         font-weight: 200;
@@ -264,7 +277,7 @@ html {
 
     section p a {
 
-        color: rgb(0, 141, 150);
+        color: #10f5f5;
 
         text-decoration: none;
 
@@ -375,7 +388,7 @@ html {
     .tools-and-mobile h3 {
 
         font-family: freight-text-pro, serif;
-
+        color: #fbfdfd;
         font-weight: 300;
 
         font-size: 1.3rem;
@@ -394,9 +407,9 @@ html {
 
         /* Learned about how to do a drop shadow on a PNG from this source: https://stackoverflow.com/questions/3186688/drop-shadow-for-png-image-in-css */
 
-        -webkit-filter: drop-shadow(.3rem .3rem .3rem rgb(128, 128, 128));
+        -webkit-filter: drop-shadow(.3rem .3rem .3rem #fcf8f8);
 
-        filter: drop-shadow(.3rem .3rem .3rem rgb(128, 128, 128));
+        filter: drop-shadow(.3rem .3rem .3rem #fcfafa);
 
     }
 
@@ -404,9 +417,9 @@ html {
 
     .phone-img:hover {
 
-        -webkit-filter: grayscale(100%) drop-shadow(.3rem .3rem .3rem rgb(128, 128, 128));
+        -webkit-filter: grayscale(100%) drop-shadow(.3rem .3rem .3rem #fffefe);
 
-        filter: grayscale(100%) drop-shadow(.3rem .3rem .3rem rgb(128, 128, 128));
+        filter: grayscale(100%) drop-shadow(.3rem .3rem .3rem #fdfbfb);
 
     }
 
@@ -426,7 +439,7 @@ html {
 
         width: 100%;
 
-        box-shadow: .3rem .3rem .3rem rgb(128, 128, 128);
+        box-shadow: .3rem .3rem .3rem #fdfdfd;
 
     }
 
@@ -464,7 +477,7 @@ html {
 
         text-decoration: none;
 
-        color: rgb(84, 34, 0); 
+        color: #f5f5f5; 
 
         transition: color .1s linear;
 
@@ -476,9 +489,9 @@ html {
 
     .icon:hover, .icon:active, .icon:focus {
 
-        color: rgb(0, 141, 150);
+        color: #076d07;
 
-        text-shadow: .2rem .2rem .2rem rgb(128, 128, 128);
+        text-shadow: .2rem .2rem .2rem #fdfcfc;
 
     }
 
@@ -496,7 +509,7 @@ html {
 
         padding: 1rem 0;
 
-        border-top: .2rem solid  rgb(84, 34, 0);
+        border-top: .2rem solid  #fffffe;
 
     }
 
@@ -546,7 +559,7 @@ html {
 
     .icon-and-label span {
 
-        color: rgb(0, 141, 150);
+        color: #fbffff;
 
         font-family: filson-pro, sans-serif;
 
@@ -582,7 +595,7 @@ html {
 
         justify-items: center;
 
-        align-content: center
+        align-content: center;
 
     }
 
@@ -600,9 +613,10 @@ html {
 
         width: 20rem;
 
-        border: 1px solid rgb(0, 0, 0);
+        border: 1px solid hsl(135, 91%, 25%);
 
-        box-shadow: .3rem .3rem .3rem rgb(128, 128, 128);
+        box-shadow: .3rem .3rem .3rem #661f1f;
+        color: rgb(255, 251, 251);
 
     }
 
@@ -622,7 +636,7 @@ html {
 
         padding: 1rem 0;
 
-        border-top: .2rem solid  rgb(84, 34, 0);
+        border-top: .2rem solid  rgb(106, 190, 247);
 
     }
 
@@ -656,7 +670,7 @@ html {
 
         background-color: rgb(243, 243, 243);
 
-        border: .1rem rgb(196, 196, 196) solid;
+        border: .1rem rgb(106, 190, 247) solid;
 
         padding: .5rem;
 
@@ -674,7 +688,7 @@ html {
 
         background-color: rgb(243, 243, 243);
 
-        border: .1rem rgb(196, 196, 196) solid;
+        border: .1rem rgb(106, 190, 247) solid;
 
         padding: .5rem;
 
@@ -703,7 +717,9 @@ html {
         justify-self: center;
 
         background-color: rgb(0, 141, 150);
-
+        
+        border: .1rem rgb(255, 255, 255) solid;
+        
         color: rgb(255, 255, 255);
 
         transition: box-shadow .1s linear;
@@ -762,7 +778,7 @@ html {
 
         justify-self: center;
 
-        color: rgb(84, 34, 0);
+        color: #f5f5f5;
 
         transition: color .1s linear;
 
@@ -774,7 +790,7 @@ html {
 
     #contact-icons a:hover, #contact-icons a:active, #contact-icons a:focus {
 
-        color: rgb(0, 141, 150);
+        color: #04fd31f3;
 
         text-shadow: .1rem .1rem .1rem rgb(128, 128, 128);
 
